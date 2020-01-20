@@ -23,13 +23,13 @@ class TimeWidget extends StatelessWidget {
   final TimeUnit timeUnit;
   final TextStyle timeTextStyle;
   final TextStyle selectedTimeTextStyle;
-  VoidCallback onTap;
+  final VoidCallback onTap;
   final VoidCallback onLongTap;
-  Decoration defaultDecoration;
-  Decoration selectedDecoration;
-  Decoration disabledDecoration;
-  bool isSelected;
-  bool isDisabled;
+  final Decoration defaultDecoration;
+  final Decoration selectedDecoration;
+  final Decoration disabledDecoration;
+  final bool isSelected;
+  final bool isDisabled;
   final EdgeInsetsGeometry padding;
 
   TimeWidget({

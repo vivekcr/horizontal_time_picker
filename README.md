@@ -23,11 +23,6 @@ Easy to use, beautiful and customizable time strip component for Flutter
 | ------------------------- | ---------------------------------- | ------------ | ---------------------- |
 |  TODO
 
-## State Management in horizontal_calendar
-
-`initialSelectedDates` will only be taken when the widget built for the first time.  `horizontal_calendar`  will manage the Subsequent dates selection and un selection.
-
-To get the initial control over the host app, one can pass the UniqueKey.
 
 e.g.
 ```dart
