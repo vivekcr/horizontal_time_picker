@@ -45,6 +45,7 @@ class HorizontalTimePicker extends StatefulWidget {
     this.spacingBetweenDates = 8.0,
     this.padding = const EdgeInsets.all(12.0),
   })  : assert(startTimeInHour != null),
+        assert(dateForTime != null),
         assert(endTimeInHour != null),
         assert(
           endTimeInHour == startTimeInHour || startTimeInHour < endTimeInHour,
