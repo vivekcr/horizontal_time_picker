@@ -1,6 +1,6 @@
 name: horizontal_time_picker
 description: Easy to use, beautiful and customizable time strip component for Flutter
-version: 0.0.2
+version: 1.0.0
 homepage: https://github.com/vivekcr/horizontal_time_picker
 
 environment:
