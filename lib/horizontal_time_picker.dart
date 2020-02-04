@@ -97,6 +97,8 @@ class _HorizontalTimePickerState extends State<HorizontalTimePicker> {
         widget.endTimeInHour,
         widget.timeIntervalInMinutes,
         widget.dateForTime));
+    selectedDateTimeSlots
+        .addAll(getInitialSelectedTimeSlotsList(widget.initialSelectedDates));
   }
 
   @override

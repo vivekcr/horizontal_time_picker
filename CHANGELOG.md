@@ -9,3 +9,7 @@
 ### 1.0.0
 
 * Adding support to hide and show disabled time slots.
+
+### 1.0.1
+
+* Adding support to select initial time slots.

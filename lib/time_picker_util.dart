@@ -13,6 +13,17 @@ List<TimeUnit> getDateTimeSlotList(int startTimeInHour, int endTimeInHour,
   return timeSlots;
 }
 
+List<TimeUnit> getInitialSelectedTimeSlotsList(
+    List<DateTime> initialSelectedDates) {
+  List<TimeUnit> timeSlots = [];
+  if (initialSelectedDates != null) {
+    initialSelectedDates.forEach((timeSlot) {
+      timeSlots.add(TimeUnit(timeSlot.hour, timeSlot.minute));
+    });
+  }
+  return timeSlots;
+}
+
 isTimeSlotDisabled(DateTime dateForTime, TimeUnit timeSlot) {
   DateTime selectedDateTime = DateTime(dateForTime.year, dateForTime.month,
       dateForTime.day, timeSlot.hour, timeSlot.minute, 0, 0, 0);
